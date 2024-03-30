@@ -1,4 +1,6 @@
 #include "monty.h"
+#include <stdlib.h>
+#include <stdio.h>
 
 /**
  *f_push - it pushes an element on to stack
@@ -19,6 +21,15 @@ if (bus.arg[y] > 50 || bus.arg[y] < 40)
 flag = 1;
 }
 if (flag == 1)
+{
+fprintf(stderr, "L%d: usage: push integer\n", counter);
+fclose(bus.file);
+free(bus.content);
+free_stack(*head);
+exit(EXIT_FAILURE);
+}
+}
+else
 {
 fprintf(stderr, "L%d: usage: push integer\n", counter);
 fclose(bus.file);
