@@ -31,5 +31,23 @@ typedef struct instruction_s
 } instruction_t;
 void f_push(stack_t **stack, unsigned int line_number);
 void f_pall(stack_t **head, unsigned int counter);
-
+/**
+ * Struct bus_s - Holds different values
+ * used in the program
+ * @arg: Stores a value
+ * @file: Refers to a file being processed
+ * @content: Contains text from a line
+ * @lifi: Indicates whether to use a stack or a queue
+ * Description: This structure helps carry important
+ * information throughout the program
+ */
+typedef struct bus_s
+{
+char *arg;
+FILE *file;
+char *content;
+int lifi;
+}
+bus_t;
+extern bus_t bus;
 #endif /*MONTY_H*/
