@@ -29,8 +29,6 @@ typedef struct instruction_s
         char *opcode;
         void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
-void f_push(stack_t **stack, unsigned int line_number);
-void f_pall(stack_t **head, unsigned int counter);
 /**
  * Struct bus_s - Holds different values
  * used in the program
@@ -50,4 +48,6 @@ int lifi;
 }
 bus_t;
 extern bus_t bus;
+void f_push(stack_t **stack, unsigned int line_number);
+void f_pall(stack_t **head, unsigned int counter);
 #endif /*MONTY_H*/
