@@ -1,8 +1,8 @@
 #include "monty.h"
 
 /**
- * f_pint - this prints the top element
- * of the stack
+ * f_pint - this prints the value at the top
+ * of the stack, followed by a new line
  * @head: is the stack head
  * @counter: the line number
  * Return: valid
