@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- *f_push - it pushes an element on to stack
+ *f_push - it pushes an element to the stack
  *@head: pointer to the head of stack
  *@counter: line_number
  *Return: void
