@@ -22,7 +22,8 @@ fprintf(stderr, "L%d: can't div, stack too short\n", counter);
 fclose(bus.file);
 free(bus.content);
 free_stack(*head);
-exit(EXIT_FAILURE);}
+exit(EXIT_FAILURE);
+}
 h = *head;
 if (h->n == 0)
 {
