@@ -18,7 +18,7 @@ exit(0);
 }
 if (aux)
 aux->prev = new_node;
-new_node->x = x;
+new_node->n = x;
 new_node->next = *head;
 new_node->prev = NULL;
 *head = new_node;
