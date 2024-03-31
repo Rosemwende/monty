@@ -4,7 +4,7 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include <sys/types.h>
-#include <fcnt1.h>
+#include <fcntl.h>
 #include <ctype.h>
 #include <string.h>
 
