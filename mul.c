@@ -1,6 +1,6 @@
 #include "monty.h"
 /**
- * f_mul - this multiplies the second top
+ * f_mul - it multiplies the second top
  * element of the stack with the top element
  * of the stack
  * @head: pointer at the head of the stack
