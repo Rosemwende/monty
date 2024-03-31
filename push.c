@@ -3,7 +3,7 @@
 /**
  *f_push - it pushes an element on to stack
  *@head: pointer to the head of stack
- *@counter: line number
+ *@counter: line_number
  *Return: void
  */
 void f_push(stack_t **head, unsigned int counter)
