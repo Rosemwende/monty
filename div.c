@@ -23,7 +23,7 @@ fclose(bus.file);
 free(bus.content);
 free_stack(*head);
 exit(EXIT_FAILURE);}
-h = *head
+h = *head;
 if (h->n == 0)
 {
 fprintf(stderr, "L%d: division by zero\n", counter);
