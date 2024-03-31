@@ -26,7 +26,7 @@ if (new_node == NULL)
 {
 printf("Error\n");
 }
-new_node->x = x;
+new_node->n = x;
 new_node->next = NULL;
 if (aux)
 {
