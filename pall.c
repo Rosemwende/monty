@@ -1,8 +1,9 @@
 #include "monty.h"
 
 /**
- * f_pall - This function prints
- * the stack
+ * f_pall - This prints all the values on
+ * the stack, starting from the
+ * top of the stack
  * @head: pointer to the top of the stack
  * @counter: Not used
  * Return: void
