@@ -2,7 +2,7 @@
 
 /**
  *f_push - it pushes an element to the stack
- *@head: pointer to the head of stack
+ *@head: the head of stack
  *@counter: line_number
  *Return: void
  */
