@@ -1,11 +1,9 @@
 #include "monty.h"
-#include <stdlib.h>
-#include <stdio.h>
 
 /**
  *f_push - it pushes an element on to stack
  *@head: pointer to the head of stack
- *@counter: line_number
+ *@counter: line number
  *Return: void
  */
 void f_push(stack_t **head, unsigned int counter)
