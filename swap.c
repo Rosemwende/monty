@@ -27,6 +27,6 @@ exit(EXIT_FAILURE);
 }
 h = *head;
 aux = h->n;
-h-> = h->next->n;
+h->n = h->next->n;
 h->next->n = aux;
 }
