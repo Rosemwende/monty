@@ -1,6 +1,6 @@
 #include "monty.h"
 /**
- * f_mod - this computes the rest of the
+ * f_mod - it computes the rest of the
  * division of the second top element
  * of the stack by the top element of
  * the stack
